@@ -1,7 +1,6 @@
 
 import streamlit as st
 import psycopg2
-#import psycopg2.extras
 from configparser import ConfigParser
 import pandas as pd
 import hashlib
