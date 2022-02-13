@@ -12,9 +12,6 @@ import numpy as np
 
 st.sidebar.title("Welcome to HRD Survey Interface!")
 
-#option = st.sidebar.selectbox("Select user",
-#                              ("HRD Admin", "HRD guy"))
-
 radio_list = ["HRD Admin", "HRD guy","Potential candidate"]
 app_state = st.experimental_get_query_params()
 default_radio = int(app_state["unique_option"][0]) if "unique_option" in app_state else 0
